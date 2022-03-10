@@ -8,7 +8,7 @@ use rocket_dyn_templates::Template;
 
 #[get("/")]
 fn index() -> Html<&'static str> {
-    Html(r#"See <a href="tera">here</a>."#)
+    Html(r#"Find the addenda <a href="tera">here</a>."#)
 }
 
 #[launch]
